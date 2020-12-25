@@ -540,7 +540,7 @@ declare namespace webpack {
         /**
          * Module type to use for the module
          */
-        type?: "javascript/auto" | "javascript/dynamic" | "javascript/esm" | "json" | "webassembly/experimental";
+        type?: 'javascript/auto' | 'javascript/dynamic' | 'javascript/esm' | 'json' | 'webassembly/sync' | 'webassembly/async' | 'asset' | 'asset/source' | 'asset/resource' | 'asset/inline';
         /**
          * Match the resource path of the module
          */
